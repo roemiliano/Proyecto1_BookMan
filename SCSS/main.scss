@@ -1,0 +1,40 @@
+@import 'global' ;
+
+body{
+    background-color: $white-suit;
+    
+        
+    .navbar {
+        
+        
+        .navbar-nav {
+            font-size: 20px;
+        }
+        .search {
+
+            color: $white-suit;
+        
+        }
+        .perfil {
+            color: $white-suit;
+        }
+        .log-in {
+            
+            
+            li{
+                a{
+                    color: #f4f7f6;
+                }
+            }
+        }
+        
+        
+
+        
+        
+        
+    }
+
+    
+    
+}

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookman</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="SCSS/main.css">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg p-3 rounded">
+        <a class="navbar-brand" href="#">
+            <img src="" alt="LOGO">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Notificaciones<span class="sr-only">(current)</span></a>
+        </li>    
+        <li class="nav-item">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Perfil">
+                <a class="perfil " href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                </a>
+            </button>
+            </li>
+        </ul>
+        
+        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#staticBackdrop1">
+            Ingresar
+        </button>
+        
+        <div class="modal fade" id="staticBackdrop1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Ingresa tus datos</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                          <div id="emailHelp" class="form-text">No le des a nadie tu contraseña.</div>
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit button" class="btn btn-primary" >Ingresar</button>
+                      </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#staticBackdrop">
+            Inscribirse
+        </button>
+        
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Ingresa tus datos</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Número de teléfono</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                          <div id="emailHelp" class="form-text">No le des a nadie tu contraseña.</div>
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Inscribirse</button>
+                      </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        
+
+
+
+          <form class="form-inline my-2 my-lg-0">
+            <div class=" d-flex">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Buscar">
+                  <a class="perfil " href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#f4f7f6" class="bi bi-search" data-bs-toggle="tooltip" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg>
+                  </a>
+                </button>
+              </div>
+          </form>
+        </div>
+      </nav>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex">
+            <div class="card" style="width: 18rem; height: 600px;">
+              <img src="IMG/la_maldicion-veneciana.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">La Maldicion Veneciana</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link">Más sobre este libro</a>
+              </div>
+            </div>
+            <div class="card card2" style="width: 18rem; height: 600px;">
+              <img src="IMG/Solo_leveling.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Solo leveling</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link">Más sobre este manga</a>
+              </div>
+            </div>
+            <div class="card card1" style="width: 18rem; height: 600px;">
+              <img src="IMG/la_espada_de_kuromori.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">La espada de Kuromori</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link">Más sobre este libro</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem; height: 600px;">
+              <img src="IMG/La-magia.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">A Returner's Magic Should Be Special </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link">Más sobre este manga</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item d-flex">
+              <div class="card" style="width: 18rem; height: 600px;">
+                <img src="IMG/El_club_de_la_salamandra.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">El club de la salamandra</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="card-body">
+                  <a href="#" class="card-link">Más sobre este libro</a>
+                </div>
+              </div>
+              <div class="card card2" style="width: 18rem; height: 600px;">
+                <img src="IMG/tales-of-demons-and-gods.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tales of demonns and gods</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="card-body">
+                  <a href="#" class="card-link">Más sobre este manga</a>
+                </div>
+              </div>
+              <div class="card card1" style="width: 18rem; height: 600px;">
+                <img src="IMG/El_territorio_salvaje.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Los gatos gerreros(El territorio salvaje)</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="card-body">
+                  <a href="#" class="card-link">Más sobre este libro</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem; height: 600px;">
+                <img src="IMG/world_triger.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">World triger</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="card-body">
+                  <a href="#" class="card-link">Más sobre este manga</a>
+                </div>
+              </div>
+            </div>
+          <div class="carousel-item d-flex">
+            <div class="card" style="width: 18rem; height: 600px;">
+              <img src="IMG/cronicas-marcianas.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cronicas Marcianas</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link">Más sobre este libro</a>
+              </div>
+            </div>
+            <div class="card card2" style="width: 18rem; height: 600px;">
+              <img src="IMG/chronicles-of-heavenly-demon.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chronicles of heavenly demon</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link">Más sobre este manga</a>
+              </div>
+            </div>
+            <div class="card card1" style="width: 18rem; height: 600px;">
+              <img src="IMG/el_resplandor.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">El resplandor </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link">Más sobre este libro</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem; height: 600px;">
+              <img src="IMG/jujutsu_kaisen.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jujutsu Kaisen</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="card-link">Más sobre este manga</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev btn-dark" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next btn-dark" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+      
+      
+    
+
+      
+      <!-- <div class="carousel-item active d-flex">
+        <div>
+        <img src="IMG/91ZiXDYRM6L.jpg" class="d-block w-100" alt="...">
+       </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+        <div class="carousel-item active">
+          <div class="">
+          <img src="IMG/descarga.jpeg" class="d-block w-100" alt="...">
+        </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+      </div> -->
+      
+ 
+
+
+      
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+

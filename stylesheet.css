@@ -1,0 +1,89 @@
+.log-in li > a {
+    color: #f4f7f6;
+    display: flex;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.log-in {
+    margin-top: 12px;
+}
+.container-fluid {
+    height: 50px;
+    align-items: center;
+}
+.btn {
+    background-color: #212529;
+    border:  1px  #212529;
+    font-size: 20px;
+    
+
+}
+.Perfil .bi-person {
+    color: #f4f7f6;
+
+}
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    
+}
+.nav-item > a {
+    font-size: 20px;
+}
+.btn-secondary > .perfil {
+    color: #f4f7f6;
+}
+.btn-link {
+    border: #212529;
+    font-weight: 400;
+    color: #f4f7f6;
+    text-decoration: underline;
+    background-color: #212529;
+    
+}
+
+.navbar-dark {
+    background-color: #212529;
+    height: 60px;
+    margin-bottom: 10px;
+    
+}
+
+
+.carousel {
+    
+    height: 600px;
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+    
+
+}
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+.card1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card-img-top {
+    height: 380px;
+}
+
+
+
+
+
+
+
+
