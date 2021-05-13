@@ -218,6 +218,208 @@ a:hover {
 
     
 }
-.celular-360 {
-    display: none;
+@media (min-width: 361px) and (max-width: 1440px){
+    .celular-360 {
+        display: none;
+    }
 }
+@media (min-width: 451px) and (max-width: 1440px){
+    .celular-425 {
+        display: none;
+    }
+}
+@media (min-width: 0px) and (max-width: 361px){
+    .celular-360 {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 360px) {
+    .computer {
+        display: none;
+    }
+    
+    .fixed-top {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-between;
+        height: 54px;
+    }
+    .mr-auto, .mx-auto {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .ingre-re {
+        display: flex;
+        margin-top: 65px;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .btn-ingre-re {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 40%;
+        
+        
+    }
+    .carousel {
+        height: 300px;
+        background-color: #f4f7f6;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+
+    .card-man-book {
+        height: 280px;
+        width: 35%;
+        display: flex;
+    }
+    .card-img-top {
+        height: 60%;
+    }
+    .title-man-book {
+        font-size: 12px;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 14px;
+        
+
+    }
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 1.25rem;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-man-book-text {
+        font-size: 8px;
+        display: flex;
+    }
+    .carousel-item {
+        margin-top: 12px;
+    }
+    .link-bookman {
+        font-size: 12px;
+        
+    }
+    .btn-dark {
+        opacity: .6;
+        width: 30px;
+    }
+    .btn-perfil {
+        margin-left: 55%;
+    }
+    .link-noti {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 361px) and (max-width: 450px){
+    .computer {
+        display: none;
+    }
+    
+    .fixed-top {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-between;
+        height: 54px;
+    }
+    .mr-auto, .mx-auto {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .ingre-re {
+        display: flex;
+        margin-top: 65px;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .btn-ingre-re {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 40%;
+        
+        
+    }
+    .carousel {
+        height: 300px;
+        background-color: #f4f7f6;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+
+    .card-man-book {
+        height: 280px;
+        width: 35%;
+        display: flex;
+    }
+    .card-img-top {
+        height: 60%;
+    }
+    .title-man-book {
+        font-size: 12px;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 14px;
+        
+
+    }
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 1.25rem;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-man-book-text {
+        font-size: 8px;
+        display: flex;
+    }
+    .carousel-item {
+        margin-top: 12px;
+    }
+    .link-bookman {
+        font-size: 12px;
+        
+    }
+    .btn-dark {
+        opacity: .6;
+        width: 30px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
