@@ -296,7 +296,7 @@ a:hover {
         height: 60%;
     }
     .title-man-book {
-        font-size: 12px;
+        font-size: 18px;
         width: 100px;
         display: flex;
         flex-direction: column;
@@ -322,10 +322,7 @@ a:hover {
     .carousel-item {
         margin-top: 12px;
     }
-    .link-bookman {
-        font-size: 12px;
-        
-    }
+    
     .btn-dark {
         opacity: .6;
         width: 30px;
@@ -494,7 +491,7 @@ a:hover {
         height: 60%;
     }
     .title-man-book {
-        font-size: 12px;
+        font-size: 18px;
         width: 100px;
         display: flex;
         flex-direction: column;
@@ -520,10 +517,7 @@ a:hover {
     .carousel-item {
         margin-top: 12px;
     }
-    .link-bookman {
-        font-size: 12px;
-        
-    }
+    
     .btn-dark {
         opacity: .6;
         width: 30px;
