@@ -231,8 +231,12 @@ a:hover {
 @media (min-width: 0px) and (max-width: 361px){
     .celular-360 {
         display: none;
-    }
-}
+ 
+   }
+   
+}   
+
+
 
 
 
@@ -328,7 +332,11 @@ a:hover {
     .link-noti {
         display: none;
     }
-    
+    .card-secciones {
+        width: 60px;
+        margin-top: 1000;
+        background-color: #212529;
+    }
 }
 
 @media (min-width: 361px) and (max-width: 450px){
@@ -363,7 +371,7 @@ a:hover {
         
     }
     .carousel {
-        height: 300px;
+        height: 320px;
         background-color: #f4f7f6;
         width: 100%;
         margin-top: 10px;
@@ -371,9 +379,14 @@ a:hover {
     
 
     .card-man-book {
-        height: 280px;
+        height: 300px;
         width: 35%;
         display: flex;
+    }
+
+    .card-s-lm {
+        width: 100%;
+        
     }
     .card-img-top {
         height: 60%;
@@ -399,7 +412,7 @@ a:hover {
         justify-content: center;
     }
     .card-man-book-text {
-        font-size: 8px;
+        font-size: 10px;
         display: flex;
     }
     .carousel-item {
@@ -413,10 +426,87 @@ a:hover {
         opacity: .6;
         width: 30px;
     }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .text-center > .c-lm {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: 200px;
+        padding: 1.25rem;
+        background-color: #8daba8;
+        cursor: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-secciones-lm {
+        height: 230px;
+        margin: 0;
+
+    }
+    .card-secciones-lm .card-title {
+        margin-bottom: .55rem;
+        margin-top: 25px;
+        padding-top: 1px;
+    }
+    .card-secciones {
+        height: 230px;
+        margin: 0;
+        margin-top: 61px;
+    }
+    .botonera-botones {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .botonera-botones-1 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .botonera-botones-2 {
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    .botonera-botones, .botonera-botones-1, .botonera-botones-2 {
+        width: 30%;
+    }
+    .card-eventos > .c-lm {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-eventos {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 2.5%;
+    
+    }
+    .card-header-tus-secciones1 {
+        margin-top: 5%;
+    }
+    .separacion {
+        margin-top: 15%;
+        background-color: #212529;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        position: sticky;
+        top: 7.28%;
+        z-index: 1;
+        
+    }
+    
+
+
+
+
     
     
 }
-
 
 
 
