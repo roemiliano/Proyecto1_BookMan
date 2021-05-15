@@ -1,3 +1,6 @@
+body {
+    background-color: #ffffff;
+}
 .log-in li > a {
     color: #f4f7f6;
     display: flex;
@@ -93,6 +96,7 @@
     cursor: auto;
     
 }
+
 .card-header:first-child {
     border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
     background-color: #212529;
@@ -103,7 +107,7 @@
     flex: 1 1 auto;
     min-height: 200px;
     padding: 1.25rem;
-    background-color: #8daba8;
+    background-color: #bfdcff;
     cursor: auto;
     padding-top: 0;
 }
@@ -222,16 +226,41 @@ a:hover {
 
     
 }
+
 @media (min-width: 361px) and (max-width: 1440px){
     .celular-360 {
         display: none;
     }
-}
-@media (min-width: 451px) and (max-width: 1440px){
     .celular-425 {
         display: none;
     }
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        flex-direction: row;
+    }
+    .text-center {
+        text-align: center!important;
+        padding: 30px;
+        background-color: #e9e9e9;
+        border: none;
+        cursor: auto;
+        margin-top: 0;
+    }
+    .carousel {
+        height: 600px;
+        overflow: hidden;
+        background-color: #e9e9e9;
+        margin-top: 115px;
+    }
+    .botonera-botones, .botonera-botones-1, .botonera-botones-2 {
+        margin-top: 20px;
+    }
 }
+
 @media (min-width: 0px) and (max-width: 361px){
     .celular-360 {
         display: none;
@@ -362,7 +391,7 @@ a:hover {
 
     }
     .card-secciones-lm .card-body > h5 {
-        font-size: 15px;
+        font-size: 18px;
         margin-top: 8px;
         margin-bottom: -15px;
     }
@@ -542,6 +571,7 @@ a:hover {
         margin: 0;
 
     }
+    
     .card-secciones-lm .card-title {
         margin-bottom: .55rem;
         margin-top: 25px;
